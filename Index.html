@@ -1,51 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abigail Babalola - CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f4f4f4;
-        }
-        header {
-            background: #0a66c2;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            margin: 10px;
-            background: white;
-            border-radius: 8px;
-        }
-        h2 {
-            color: #0a66c2;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
-            color: white;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abigail Babalola</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f0f2f5;
+}
+
+header {
+    background: linear-gradient(to right, #0a66c2, #004182);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #0a66c2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px;
+    background: #e6f0ff;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+</style>
+
 </head>
+
 <body>
 
-<header>
+<header class="fade-in">
     <h1>Abigail Babalola</h1>
     <p>Customer Service | IT Support Learner</p>
 </header>
 
-<section>
+<section class="fade-in">
     <h2>About Me</h2>
     <p>I am a motivated professional with experience in customer service and sales, currently learning IT Support Services.</p>
 </section>
 
-<section>
+<section class="fade-in">
     <h2>Skills</h2>
     <ul>
         <li>Customer Service</li>
@@ -55,13 +91,13 @@
     </ul>
 </section>
 
-<section>
+<section class="fade-in">
     <h2>Experience</h2>
     <p>Retail Sales Assistant (Vacation Job)</p>
-    <p>Telesales Marketer (Experience)</p>
+    <p>Telesales Marketer</p>
 </section>
 
-<section>
+<section class="fade-in">
     <h2>Contact</h2>
     <p>Email: abigailbabalola2107@gmail.com</p>
     <p>Phone: 09019590796</p>
